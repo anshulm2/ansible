@@ -1,0 +1,5 @@
+- name: Common playbook
+  #command: yum -y update
+  command: touch file.txt
+  notify: "restart service"
+  

@@ -1,0 +1,12 @@
+- name: First Task
+  hosts: webservers
+
+  tasks:
+  -  copy: src=/home/centos/webhook/file.txt dest=/home/centos/
+  -  shell: ls -lrt > temp.txt
+
+- name: Second task
+  hosts: dbservers
+
+  roles:
+  - common
