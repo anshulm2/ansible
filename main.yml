@@ -10,3 +10,13 @@
 
   roles:
   - common
+
+- name: Debug example
+  hosts: dbservers
+
+  tasks:
+  - debug: "{{ item }}"
+  
+    with_items:
+    - abcd
+      defgh
