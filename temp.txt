@@ -1,0 +1,6 @@
+total 8
+drwxr-xr-x. 3 root root  20 Nov 28 05:39 roles
+-rw-r--r--. 1 root root 323 Nov 28 05:39 main.yml
+-rw-r--r--. 1 root root 176 Nov 28 05:48 demo.yml
+-rw-r--r--. 1 root root   0 Nov 28 05:49 file.txt
+-rw-r--r--. 1 root root   0 Nov 28 05:49 temp.txt

@@ -1,0 +1,7 @@
+- name: First Task
+  hosts: localhost
+
+  tasks:
+  -  command: touch file.txt
+  -  copy: src=/home/lenovo/ansible/file.txt dest=/home/anshulm022/
+  -  shell: ls -lrt > temp.txt
